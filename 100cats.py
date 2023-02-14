@@ -1,4 +1,13 @@
 #100 cats
+#Homework should be uploaded at GitHub.com. Result of this HW should be a link to your GitHub code
+#One day you decide to arrange all of your 100 cats in a giant circle. 
+#Initially, none of your cats have any hats on. 
+#You walk around the circle 100 times, always starting at the same spot, 
+#with the first cat (cat # 1). 
+#Every time you stop at a cat, you either put a hat on it if it doesn’t have one on, 
+#or you take its hat off if it has one on.
+
+
 def cats():
     cats = [False] * 100
 
@@ -11,7 +20,8 @@ def cats():
 
 cats()
 
-#Any cats
+
+#Make function that can calculate hat with any amount of rounds and cats
 def any_cats():
     cats_num = int(input("Enter number of cats:"))
     round_num = int(input("Enter number of rounds:"))
